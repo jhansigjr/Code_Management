@@ -46,7 +46,7 @@ Github and Cloud9 setup using Personal Access Token:
 25. Edit the file by copy/paste the basic Flask code
 26. Save and Run the file
 27. In the terminal, install Flask package (library): python3 -m pip install flask
-28. In the terminal, run the file: python3 ex2-flask.py
+28. In the terminal, run the file: python3 gj2-flask.py
 29. To view the app, go to Tools menu, select Preview --> Preview Running App
 30. To stop the service, press Ctrl + C
 
@@ -88,7 +88,7 @@ ssh-keygen -t rsa
 15. Change to the new directory
 16. Create python envionrment: python3 -m venv env
 17. activate the envionrment: source env/bin/activate
-18. Create a python file named ex1-print.py
+18. Create a python file named gj1-copy.py
 19. Edit the python file
   a. Open the file
   b. Enter a line of code
@@ -112,7 +112,7 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello_world():
-   return 'Hello World'
+   return 'Flask Program by Jhansi and Kavitha'
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug = True)
 
